@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.react-datepicker {
+  font-family: inherit;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+}
+
+.react-datepicker__header {
+  background-color: #f7fafc;
+}
+
+.react-datepicker__day--selected, 
+.react-datepicker__day--in-selecting-range, 
+.react-datepicker__day--in-range {
+  background-color: #4299e1;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #2b6cb0;
+}
